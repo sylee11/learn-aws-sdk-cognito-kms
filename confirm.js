@@ -25,8 +25,9 @@ const confirmSignUp = async ({ clientId, username, code }) => {
 
 // export { confirmSignUp };356697
 const a = await confirmSignUp({
-username: 'abcde13123122@yopmail.com',
- code: "395060", 
- clientId: 'dkeiqcaucetaeip0i8scqt6ek',})
+  username: "abcde13123122@yopmail.com",
+  code: "102951",
+  clientId: "a370b8ks0qmm502675mbq7jgi",
+});
 
-console.log(a)
+console.log(a);

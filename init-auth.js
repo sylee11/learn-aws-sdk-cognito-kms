@@ -21,6 +21,10 @@ const initiateAuth = async ({ username, password, clientId }) => {
   return client.send(command);
 };
 /** snippet-end:[javascript.v3.cognito-idp.actions.InitiateAuth] */
-const a = await initiateAuth({username: 'abcde13123122@yopmail.com', password: "Admin@123456", clientId: 'dkeiqcaucetaeip0i8scqt6ek'})
-console.log(a)
+const a = await initiateAuth({
+  username: "abcde13123122@yopmail.com",
+  password: "Admin@123456",
+  clientId: "a370b8ks0qmm502675mbq7jgi",
+});
+console.log(a);
 export { initiateAuth };
