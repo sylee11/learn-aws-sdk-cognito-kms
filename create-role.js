@@ -52,7 +52,10 @@ const create_policy = async (PolicyName, keyKMS) => {
       Statement: [
         {
           Effect: "Allow",
-          Action: "kms:Encrypt",
+          Action: [
+           "kms:Encrypt",
+           "kms:Decrypt",
+          ],
           Resource: keyKMS,
         },
       ],

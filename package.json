@@ -21,6 +21,7 @@
     "@aws-sdk/client-kms": "^3.337.0",
     "@aws-sdk/client-s3": "^3.335.0",
     "@aws-sdk/credential-providers": "^3.337.0",
+    "crypto-js": "^4.1.1",
     "google-auth-library": "^8.8.0",
     "googleapis": "^118.0.0",
     "prettier": "^2.8.8",

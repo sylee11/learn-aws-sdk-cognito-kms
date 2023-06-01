@@ -3,8 +3,8 @@ import { fromCognitoIdentityPool } from "@aws-sdk/credential-providers"; // ES M
 // const { KMSClient, EncryptCommand } = require("@aws-sdk/client-kms"); // CommonJS import
 
 const REGION = "us-east-1";
-const IDENTITY_POOL_ID = "us-east-1:60479745-9ccf-4bce-acca-03a473b13ae3";
-const USER_POOL_ID = "us-east-1_zhNkVKkvn";
+const IDENTITY_POOL_ID = "us-east-1:e759b501-5010-40d9-b1d3-03828accfdbd";
+const USER_POOL_ID = "us-east-1_ySDHMvtdl";
 
 const client = new KMSClient({
   region: "us-east-1",
